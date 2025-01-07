@@ -15,7 +15,7 @@ jobs:
         id: docker_meta						
         uses: crazy-max/ghaction-docker-meta@v1			
         with:						
-          images: seunghunn/nodejs-ci				
+          images: seunghunn/grayweb				
           tag-semver: |						
             {{version}}
             {{major}}.{{minor}}
